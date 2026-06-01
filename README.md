@@ -1,8 +1,8 @@
-# Opus Academia
+# Opus Academica
 
 *A modular-building eurogame for 2–4 players · ~2 hours*
 
-Opus Academia is a worker-placement and engine-building board game set in the village of
+Opus Academica is a worker-placement and engine-building board game set in the village of
 **Sileatus**, where a newly founded academy of magic is being raised over a natural spring of
 Aether. Each player leads a guild of builders — a **Magister** and three **Apprentices** —
 competing to become the academy's most celebrated architect. You send your workers to operate

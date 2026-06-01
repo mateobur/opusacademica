@@ -1,4 +1,4 @@
-# OPUS ACADEMIA — RULEBOOK
+# OPUS ACADEMICA — RULEBOOK
 
 **A modular-building eurogame for 2–4 players | ~2 hours**
 

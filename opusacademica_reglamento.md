@@ -1,4 +1,4 @@
-# OPUS ACADEMIA — REGLAMENTO
+# OPUS ACADEMICA — REGLAMENTO
 
 **Un eurogame de construcción modular para 2-4 jugadores | ~2 horas**
 
