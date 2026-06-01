@@ -28,6 +28,19 @@ development; the texts here are the player-facing reference.
 
 Resources: **Mundane (M)**, **Gold (G)**, **Aether (A)**, **Insight (I)**.
 
+## Print & Play
+
+Ready-to-print PDFs are attached to the
+[latest release](https://github.com/mateobur/opusacademica/releases/latest):
+
+- **[Card deck (EN)](https://github.com/mateobur/opusacademica/releases/latest/download/opusacademica_cards_en.pdf)**
+  — 84 building cards + 30 objective cards, poker size (63.5 × 88.9 mm), 9 per A4 sheet.
+  *(Large file — full-resolution art.)*
+- **[Brotherhood board (EN)](https://github.com/mateobur/opusacademica/releases/latest/download/opusacademica_brotherhood_board_en.pdf)**
+  — the personal player board, 2 per A4 sheet.
+
+Print on **A4, portrait, 100% scale** (default or minimum margins).
+
 ## Files
 
 | File | What it is |
