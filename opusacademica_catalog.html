@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opus Academia — Card Catalog</title>
+<style>
+:root{
+  --ink:#2c2622; --ink-soft:#5b5046;
+  --parchment:#faf5ea; --parchment-2:#f3ead6;
+  --gold:#9a7b3f; --gold-deep:#7a5a24; --rule:#d8c8a4; --accent:#6b4f2a;
+}
+*{box-sizing:border-box;}
+html{font-size:17px;}
+body{
+  margin:0; background:var(--parchment); color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  line-height:1.65;
+}
+.page{max-width:780px; margin:0 auto; padding:3.2rem 1.6rem 5rem;}
+h1,h2,h3,h4{font-family:"Optima","Palatino Linotype",Georgia,serif; line-height:1.25; color:var(--gold-deep); font-weight:600;}
+h1{font-size:2.1rem; text-align:center; letter-spacing:.04em; margin:.2rem 0 .3rem;}
+h1 + p{text-align:center; color:var(--ink-soft);}
+h2{font-size:1.5rem; margin-top:2.4rem; padding-bottom:.3rem; border-bottom:2px solid var(--rule);}
+h3{font-size:1.18rem; color:var(--accent); margin-top:1.7rem;}
+p{margin:.7rem 0;}
+strong{color:var(--ink); font-weight:700;}
+em{color:var(--ink-soft);}
+a{color:var(--gold-deep); text-decoration:none; border-bottom:1px dotted var(--gold);}
+a:hover{border-bottom-style:solid;}
+hr{border:none; height:1px; background:linear-gradient(90deg,transparent,var(--rule) 18%,var(--rule) 82%,transparent); margin:2.4rem 0;}
+ul,ol{padding-left:1.4rem;}
+li{margin:.3rem 0;}
+table{width:100%; border-collapse:collapse; margin:1.1rem 0; font-size:.96rem;}
+th,td{border:1px solid var(--rule); padding:.45rem .7rem; text-align:left; vertical-align:top;}
+thead th{background:var(--parchment-2); color:var(--gold-deep); font-family:Georgia,serif;}
+tbody tr:nth-child(even){background:rgba(216,200,164,.18);}
+code{font-family:"DejaVu Sans Mono",Menlo,Consolas,monospace; font-size:.9em; background:var(--parchment-2); padding:.08em .35em; border-radius:3px;}
+pre{background:#f6efdf; border:1px solid var(--rule); border-left:4px solid var(--gold); border-radius:4px; padding:1rem 1.1rem; overflow:auto; line-height:1.4;}
+pre code{background:none; padding:0; font-size:.86rem; color:var(--ink);}
+blockquote{margin:1.2rem 0; padding:.6rem 1.1rem; border-left:4px solid var(--gold); background:rgba(216,200,164,.22); color:var(--ink-soft); font-style:italic;}
+blockquote strong{color:var(--gold-deep);}
+@media print{
+  html{font-size:12pt;} body{background:#fff;}
+  .page{max-width:none; padding:0;}
+  h2{break-after:avoid;} h3{break-after:avoid;}
+  pre,table,blockquote,li{break-inside:avoid;}
+  a{color:inherit; border:none;}
+}
+</style>
+</head>
+<body>
+<main class="page">
+<h1>OPUS ACADEMIA — CARD CATALOG</h1>
+<p>Conventions:</p>
+<ul>
+<li><code>Cost</code> = build cost</li>
+<li><code>Entry</code> = cost to work on the card</li>
+<li><code>Immediate track</code> = produces in Phase 2 of this round</li>
+<li><code>One-round track</code> = produces next round</li>
+<li><code>Two-round track</code> = produces two rounds from now</li>
+</ul>
+<hr />
+<h2>Neutral cards</h2>
+<p>The 6 neutral cards of the starting board give no PP.</p>
+<p><strong>PROVISIONAL LIBRARY</strong> | One-round track | Entry: No entry</p>
+<ul>
+<li>Gain 1 Insight</li>
+</ul>
+<p><strong>VILLAGE MARKET</strong> | One-round track | Entry: 1G</p>
+<ul>
+<li>Draw 1 card</li>
+<li>Gain 3 Mundane</li>
+</ul>
+<p><strong>THE GREAT GATE</strong> | Two-round track | Entry: No entry</p>
+<ul>
+<li>Draw 2 cards</li>
+</ul>
+<p><strong>WELL OF SOULS</strong> | One-round track | Entry: No entry</p>
+<ul>
+<li>Gain 1 Aether</li>
+</ul>
+<p><strong>CHANCELLERY</strong> | Immediate track | Entry: No entry | Magister Only</p>
+<ul>
+<li>Pick 1 objective from the objective market (requires fewer than 2 active objectives).</li>
+</ul>
+<p><strong>ALCHEMY WORKSHOP</strong> | One-round track | Entry: 1A</p>
+<ul>
+<li>Gain 2 Gold</li>
+<li>Gain 2 Mundane</li>
+</ul>
+<hr />
+<h2>Academies</h2>
+<p>Sorted by PP descending, then alphabetically.</p>
+<p><strong>ARCHMAGE'S CHAMBER</strong> — 7 PP</p>
+<ul>
+<li>Cost: 1G+2A+2I</li>
+<li>Track: immediate</li>
+<li>Entry: 1G</li>
+<li>Production: none</li>
+<li>On enter: exchange 2 units of the same resource for 1 unit of another resource, as many times as you like.</li>
+</ul>
+<p><strong>PANTHEON OF FOUNDERS</strong> — 7 PP</p>
+<ul>
+<li>Cost: 2G+1A+1I</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Insight</li>
+<li>Choose two cards on the board with no meeple on them. Place 2 Aether from the bank on each.</li>
+</ul>
+<p><strong>PORTAL EX NIHILO</strong> — 7 PP</p>
+<ul>
+<li>Cost: 2G+3A+2I</li>
+<li>Track: immediate</li>
+<li>Entry: 3I</li>
+<li>Magister Only</li>
+<li>Production:</li>
+<li>Choose a card from your hand and place it on the board as one of your buildings without paying its build cost. It must be placed on an empty space adjacent to an existing card. It is inaugurated immediately.</li>
+</ul>
+<p><strong>NECROMANCER'S CRYPT</strong> — 6 PP</p>
+<ul>
+<li>Cost: 1G+2A+2I</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>On enter:</li>
+<li>If this card has no resources on it, place 2 Aether and 2 Insight from the bank on top.</li>
+<li>Production:</li>
+<li>Exchange any number of resources on this card for an equal amount of your own resources.</li>
+</ul>
+<p><strong>THE CRUCIBLE</strong> — 6 PP</p>
+<ul>
+<li>Cost: 4M+2G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Aether</li>
+<li>Discard N cards from your hand (max 5). Draw the same number of cards.</li>
+</ul>
+<p><strong>GREAT LIBRARY</strong> — 6 PP</p>
+<ul>
+<li>Cost: 1G+3A+2I</li>
+<li>Track: one-round</li>
+<li>Entry: 1G</li>
+<li>Production:</li>
+<li>Draw 2 cards</li>
+<li>Gain 1 Insight</li>
+</ul>
+<p><strong>ARBITRATION TRIBUNAL</strong> — 6 PP</p>
+<ul>
+<li>Cost: 2G+3A</li>
+<li>Track: one-round</li>
+<li>Entry: 1A</li>
+<li>Production:</li>
+<li>Draw 1 card for each rival-owned Academy orthogonally adjacent to this one.</li>
+</ul>
+<p><strong>INFINITE LIBRARY</strong> — 6 PP</p>
+<ul>
+<li>Cost: 2A+2I</li>
+<li>Track: one-round</li>
+<li>Entry: 1A</li>
+<li>On enter:</li>
+<li>Gain 1 Insight.</li>
+<li>Production:</li>
+<li>Draw 3 cards</li>
+</ul>
+<p><strong>HEPTADIMENSIONAL CLOCK</strong> — 6 PP</p>
+<ul>
+<li>Cost: 2A+3I</li>
+<li>Track: two-round</li>
+<li>Entry: 1A</li>
+<li>On enter:</li>
+<li>Gain 3 resources of any type (M/G/A/I), in any combination.</li>
+<li>Production:</li>
+<li>Discard 1 card from your hand, if possible.</li>
+</ul>
+<p><strong>HALL OF AUGURIES</strong> — 6 PP</p>
+<ul>
+<li>Cost: 2G+2A+2I</li>
+<li>Track: one-round</li>
+<li>Entry: 1G</li>
+<li>Production:</li>
+<li>Name 1 rival. Draw 4 cards from the deck. Make 2 groups of 2 cards. The chosen rival keeps the group they prefer. You keep the other group.</li>
+</ul>
+<p><strong>HALL OF DEEP MEDITATION</strong> — 6 PP</p>
+<ul>
+<li>Cost: 1G+2A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Magister Only</li>
+<li>Production:</li>
+<li>Gain 1 Aether and 1 Insight</li>
+</ul>
+<p><strong>SANCTA SANCTORUM</strong> — 6 PP</p>
+<ul>
+<li>Cost: 2G+3A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Aether</li>
+<li>Gain 3 Insight</li>
+</ul>
+<p><strong>TOMES IN LOST TONGUES</strong> — 6 PP</p>
+<ul>
+<li>Cost: 2G+2A+2I</li>
+<li>Track: immediate</li>
+<li>Entry: 2I</li>
+<li>Production:</li>
+<li>Draw 2 cards</li>
+</ul>
+<p><strong>IVORY TOWER</strong> — 6 PP</p>
+<ul>
+<li>Cost: 3A+3I</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Gold and 1 Aether</li>
+<li>Draw 1 card</li>
+</ul>
+<p><strong>ALTAR OF TRANSMUTATION</strong> — 5 PP</p>
+<ul>
+<li>Cost: 3M+1G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Aether</li>
+<li>Discard up to 3 cards from your hand. Gain 1 Aether for each card discarded.</li>
+</ul>
+<p><strong>AULA MAGNA</strong> — 5 PP (x2)</p>
+<ul>
+<li>Cost: 1G+2A+2I</li>
+<li>Track: one-round</li>
+<li>Entry: 1A</li>
+<li>Production:</li>
+<li>Gain 2 Insight</li>
+</ul>
+<p><strong>ROYAL APOTHECARY</strong> — 5 PP</p>
+<ul>
+<li>Cost: 3M+2G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Gold</li>
+<li>You may then discard up to 2 cards from your hand</li>
+<li>Gain 1 Gold for each card discarded</li>
+</ul>
+<p><strong>CHAIR OF DARK MAGIC</strong> — 5 PP</p>
+<ul>
+<li>Cost: 2A+2I</li>
+<li>Track: immediate</li>
+<li>Entry: 2A</li>
+<li>Magister Only</li>
+<li>Production:</li>
+<li>Recover up to 3 cards from the common discard to your hand.</li>
+</ul>
+<p><strong>SUBTERRANEAN RAIL</strong> — 5 PP</p>
+<ul>
+<li>Cost: 5M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: 1A</li>
+<li>On enter:</li>
+<li>Gain 3 Mundane.</li>
+<li>Production:</li>
+<li>Gain 1 Gold for each Academy with an owner in a straight line (horizontal or vertical) with this one.</li>
+</ul>
+<p><strong>HALL OF MIRRORS</strong> — 5 PP</p>
+<ul>
+<li>Cost: 2M+1G+2A</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Look at the top 3 cards of the deck. Choose 1 for your hand, discard the rest.</li>
+</ul>
+<p><strong>GREAT ATHANOR</strong> — 5 PP</p>
+<ul>
+<li>Cost: 3M+2A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Gold and 2 Aether</li>
+</ul>
+<p><strong>NETWORK OF PASSAGES</strong> — 5 PP</p>
+<ul>
+<li>Cost: 3A+2I</li>
+<li>Track: one-round</li>
+<li>Entry: 1A</li>
+<li>On enter: Place 1 meeple from your supply on the starting space of another track without paying entry. Must respect normal restrictions (Magister Only, free track, etc.).</li>
+</ul>
+<p><strong>HERMETIC LABORATORY</strong> — 5 PP</p>
+<ul>
+<li>Cost: 3M+1G+1A</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Aether</li>
+<li>Gain 1 Insight</li>
+</ul>
+<p><strong>ASTRONOMICAL OBSERVATORY</strong> — 5 PP</p>
+<ul>
+<li>Cost: 4M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>On enter:</li>
+<li>Draw 1 card.</li>
+<li>Production:</li>
+<li>Gain 1 Insight</li>
+</ul>
+<p><strong>SUPPLY OFFICE</strong> — 5 PP</p>
+<ul>
+<li>Cost: 4G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Draw 1 card</li>
+<li>Gain 1 Gold</li>
+<li>Choose three cards on the board with no meeple on them. Place 2 Mundane from the bank on each.</li>
+</ul>
+<p><strong>BOTANICAL PAVILION</strong> — 5 PP</p>
+<ul>
+<li>Cost: 2M+2G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Insight for each Courtyard orthogonally adjacent to this one.</li>
+</ul>
+<p><strong>PHILOSOPHER'S STONE</strong> — 5 PP</p>
+<ul>
+<li>Cost: 3A+2I</li>
+<li>Track: immediate</li>
+<li>Entry: 1A</li>
+<li>On enter:</li>
+<li>Exchange any amount of Mundane, Aether or Insight for Gold at 1:1.</li>
+<li>Production:</li>
+<li>None.</li>
+</ul>
+<p><strong>MECHANICAL PLANETARIUM</strong> — 5 PP</p>
+<ul>
+<li>Cost: 3M+1G+1A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Aether and 1 Insight</li>
+<li>Draw 1 card</li>
+</ul>
+<p><strong>QUARTERS</strong> — 4 PP (x2)</p>
+<ul>
+<li>Cost: 3M+1G+2A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Mundane</li>
+<li>Gain 2 Gold</li>
+</ul>
+<p><strong>CHAMBER OF ECHOES</strong> — 4 PP</p>
+<ul>
+<li>Cost: 2A+1I</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Insight</li>
+<li>Gain 1 Aether</li>
+</ul>
+<p><strong>CONCLAVE</strong> — 4 PP</p>
+<ul>
+<li>Cost: 3M+1G+1A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Gold and 1 Insight</li>
+<li>Draw 1 card</li>
+</ul>
+<p><strong>CENSORED GRIMOIRES</strong> — 4 PP</p>
+<ul>
+<li>Cost: 2M+1G+1A</li>
+<li>Track: immediate</li>
+<li>Entry: 1A</li>
+<li>Production:</li>
+<li>Gain 1 Insight</li>
+<li>Draw 1 card</li>
+</ul>
+<p><strong>THE TAVERN</strong> — 4 PP</p>
+<ul>
+<li>Cost: 3M+1G</li>
+<li>Track: immediate</li>
+<li>Entry: 1G</li>
+<li>On enter:</li>
+<li>Place up to 2 rival Apprentices that are in supply on this card. They return to their owners at the end of the round.</li>
+</ul>
+<p><strong>MAP ROOM</strong> — 4 PP</p>
+<ul>
+<li>Cost: 3M+3G</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Draw 5 cards and then discard 3.</li>
+</ul>
+<p><strong>DINING HALL</strong> — 4 PP (x2)</p>
+<ul>
+<li>Cost: 3M+2G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Mundane</li>
+<li>Gain 1 Gold</li>
+</ul>
+<p><strong>SCRIPTORIUM</strong> — 4 PP (x2)</p>
+<ul>
+<li>Cost: 2M+1G+2A</li>
+<li>Track: immediate</li>
+<li>Entry: 2G</li>
+<li>Production:</li>
+<li>Gain 1 Insight</li>
+<li>Draw 2 cards</li>
+</ul>
+<p><strong>TWISTED TOWER</strong> — 4 PP (x2)</p>
+<ul>
+<li>Cost: 3M+2G+1A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Insight and 3 Gold</li>
+</ul>
+<p><strong>ORATORY TRIBUNAL</strong> — 4 PP</p>
+<ul>
+<li>Cost: 3M+2G</li>
+<li>Track: immediate</li>
+<li>Entry: 1G</li>
+<li>Production:</li>
+<li>Choose 1 rival. Draw 1 card. Then, that rival draws 1 card.</li>
+</ul>
+<hr />
+<h2>Courtyards</h2>
+<p>Sorted by PP descending, then alphabetically.</p>
+<p><strong>THE WHISPERING TREE</strong> — 4 PP</p>
+<ul>
+<li>Cost: 3M+2G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Insight</li>
+</ul>
+<p><strong>SAWMILL</strong> — 3 PP (x2)</p>
+<ul>
+<li>Cost: 2M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 5 Mundane</li>
+</ul>
+<p><strong>MUSHROOM FOREST</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2M+2G</li>
+<li>Track: immediate</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Mundane for each card orthogonally adjacent to this one (max 4 Mundane).</li>
+</ul>
+<p><strong>FAERIE FOREST</strong> — 3 PP</p>
+<ul>
+<li>Cost: 3M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: 1I</li>
+<li>On enter:</li>
+<li>Gain 2 Aether.</li>
+<li>Production:</li>
+<li>Gain 1 Aether and 1 Gold for each owned Courtyard orthogonally adjacent to this one.</li>
+</ul>
+<p><strong>DWARF'S HUT</strong> — 3 PP (x3)</p>
+<ul>
+<li>Cost: 2M+1G</li>
+<li>Track: immediate</li>
+<li>Entry: 1A</li>
+<li>Production:</li>
+<li>Gain 3 Mundane</li>
+</ul>
+<p><strong>TRADE CARAVAN</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: 1G</li>
+<li>Production:</li>
+<li>Gain 3 Mundane</li>
+<li>Draw 1 card</li>
+</ul>
+<p><strong>MONEYCHANGER'S SQUARE</strong> — 3 PP (x3)</p>
+<ul>
+<li>Cost: 3M+1G</li>
+<li>Track: immediate</li>
+<li>Entry: 1M</li>
+<li>Production:</li>
+<li>Gain 2 Gold</li>
+</ul>
+<p><strong>ENCHANTED FOUNTAIN</strong> — 3 PP (x3)</p>
+<ul>
+<li>Cost: 2M+2G+1A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Aether</li>
+</ul>
+<p><strong>INNER ORCHARD</strong> — 3 PP</p>
+<ul>
+<li>Cost: 3M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Mundane</li>
+<li>Gain 1 Insight for each Academy orthogonally adjacent to this one.</li>
+</ul>
+<p><strong>PRIMORDIAL SPRING</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2M+2G+1A</li>
+<li>Track: two-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 2 Mundane</li>
+<li>Gain 2 Gold</li>
+<li>Gain 2 Aether</li>
+</ul>
+<p><strong>GOLD MINE</strong> — 3 PP (x3)</p>
+<ul>
+<li>Cost: 3M+1G</li>
+<li>Track: two-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 4 Gold</li>
+</ul>
+<p><strong>MESSENGER DOVECOTE</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2M+1G</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Draw 1 card</li>
+<li>Gain 1 Gold</li>
+</ul>
+<p><strong>GOLDEN STREAM</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2M+1G</li>
+<li>Track: immediate</li>
+<li>Entry: 1A</li>
+<li>Production:</li>
+<li>Gain 3 Gold</li>
+</ul>
+<p><strong>WILLOW OF ILLUMINATION</strong> — 2 PP</p>
+<ul>
+<li>Cost: 2A</li>
+<li>Track: one-round</li>
+<li>Entry: 1G+1I</li>
+<li>Production:</li>
+<li>Look at up to 10 cards of the deck. Choose 1 and add it to your hand. Return the rest to the deck and then shuffle it.</li>
+</ul>
+<p><strong>SPICE NURSERY</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Gold</li>
+<li>Gain 1 Aether</li>
+<li>Draw 1 card</li>
+</ul>
+<p><strong>CEMETERY</strong> — 2 PP (x2)</p>
+<ul>
+<li>Cost: 2M+1G</li>
+<li>Track: immediate</li>
+<li>Entry: 1I</li>
+<li>Production:</li>
+<li>Choose 1 card from the common discard and add it to your hand.</li>
+</ul>
+<p><strong>AETHER DISTILLERY</strong> — 2 PP (x2)</p>
+<ul>
+<li>Cost: 2M+1G</li>
+<li>Track: immediate</li>
+<li>Entry: 1M</li>
+<li>Production:</li>
+<li>Gain 2 Aether</li>
+</ul>
+<p><strong>MOON POND</strong> — 2 PP (x2)</p>
+<ul>
+<li>Cost: 2M+1G+1A</li>
+<li>Track: one-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 1 Aether and 1 Gold</li>
+</ul>
+<p><strong>FOREST ORACLE</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2G+1A</li>
+<li>Track: two-round</li>
+<li>Entry: No entry</li>
+<li>Production:</li>
+<li>Gain 3 Insight</li>
+</ul>
+<p><strong>OVERLOOK OF REGRET</strong> — 2 PP</p>
+<ul>
+<li>Cost: 2M+1G</li>
+<li>Track: one-round</li>
+<li>Entry: 1G</li>
+<li>On enter:</li>
+<li>Return 1 of your other meeples on a track to your supply without producing. Refund the entry cost of the card it was on.</li>
+<li>Production:</li>
+<li>Gain 1 Insight</li>
+</ul>
+<p><strong>ILLUSIONIST'S LABYRINTH</strong> — 3 PP</p>
+<ul>
+<li>Cost: 2M+2G</li>
+<li>Track: one-round</li>
+<li>Entry: 1G</li>
+<li>On enter:</li>
+<li>Swap 1 of your resources for 1 resource of another type.</li>
+<li>Production:</li>
+<li>Draw 1 card</li>
+</ul>
+<p><strong>WISHING WELL</strong> — 1 PP</p>
+<ul>
+<li>Cost: 2M+1G</li>
+<li>Track: one-round</li>
+<li>Entry: 1G</li>
+<li>Production:</li>
+<li>Gain 2 resources: each chosen between Mundane, Gold or Aether. (They may differ.)</li>
+</ul>
+<p><strong>UNTENDED GARDEN</strong> — 0 PP</p>
+<ul>
+<li>Cost: 1M</li>
+<li>Track: one-round</li>
+<li>Entry: 1M</li>
+<li>Production:</li>
+<li>If there is at least 1 orthogonally adjacent Academy, draw 1 card.</li>
+</ul>
+<hr />
+<h2>Objectives</h2>
+<p>Objectives give additional PP on completion. Each player may have up to 2 active objectives simultaneously. They are obtained in the initial draft and from the Chancellery. The goal for some objectives varies with the number of players (shown as 2p/3p/4p).</p>
+<p><strong>COMMUNITY SERVICE</strong> — 3 PP | Interactive</p>
+<ul>
+<li>Goal: Other players work on your private buildings 6/8/10 times.</li>
+</ul>
+<p><strong>NETWORK OF FAVORS</strong> — 3 PP | Interactive</p>
+<ul>
+<li>Goal: Work on private buildings of other players 6/8/8 times. In 3-4 players, it must be on buildings of at least 2 different rivals.</li>
+</ul>
+<p><strong>ATTENTIVE MENTOR</strong> — 3 PP | Solo</p>
+<ul>
+<li>Goal: Your Magister supervises 5 times.</li>
+</ul>
+<p><strong>LANDHOLDER</strong> — 3 PP | Solo</p>
+<ul>
+<li>Goal: Have 3 owned Courtyards orthogonally connected.</li>
+</ul>
+<p><strong>EMBASSY</strong> — 3 PP | Solo</p>
+<ul>
+<li>Goal: Build a card with at least 2 adjacent rival cards. Completes on build.</li>
+</ul>
+<p><strong>IMPROVED VERSION</strong> — 3 PP | Solo</p>
+<ul>
+<li>Goal: Build a building that a rival has already built. Completes on build.</li>
+</ul>
+<p><strong>INAUGURAL BANQUET</strong> — 3 PP | Mixed</p>
+<ul>
+<li>Goal: Build an Academy of 5+ PP adjacent to Dining Hall or The Tavern.</li>
+</ul>
+<p><strong>WELCOME CEREMONY</strong> — 3 PP | Mixed</p>
+<ul>
+<li>Goal: Your Magister produces at The Great Gate.</li>
+</ul>
+<p><strong>LANDMARK BUILDING</strong> — 3 PP | Solo (x5)</p>
+<ul>
+<li>Goal: One of your Academies ends with all 4 orthogonal sides occupied and at least 1 adjacent Courtyard. Place a Landmark Building token on that Academy.</li>
+</ul>
+<p><strong>INSPIRED IDEA</strong> — 3 PP | Interactive (x2)</p>
+<ul>
+<li>Goal: Place 1 card from your hand on this objective. If another player builds it (free action), you complete the objective.</li>
+</ul>
+<p><strong>WELL OF WISDOM</strong> — 3 PP | Solo</p>
+<ul>
+<li>Goal: Your Insight + cards in hand sum to 10 or more.</li>
+</ul>
+<p><strong>LOAN</strong> — 3 PP | Interactive</p>
+<ul>
+<li>Goal: On acquisition, deposit 2 Gold. You may only pick this objective if you can make that deposit. Another player may take them (free action) to complete the objective.</li>
+</ul>
+<p><strong>INSTITUTIONAL COLLABORATION</strong> — 3 PP | Interactive</p>
+<ul>
+<li>Goal: Other players deposit Insight on this card 2/3/4 times. Each time they do, the collaborator draws 2 cards.</li>
+</ul>
+<p><strong>REPRIMAND</strong> — 3 PP | Interactive</p>
+<ul>
+<li>Goal: Advance 1 space a rival Apprentice that is not on a production space. Free action, once per turn. 3 times to complete.</li>
+</ul>
+<p><strong>SPLENDID</strong> — 3 PP | Solo</p>
+<ul>
+<li>Goal: Spend 5 or more Gold in a single round.</li>
+</ul>
+<p><strong>GREATER CLOISTER</strong> — 4 PP | Solo</p>
+<ul>
+<li>Goal: Have 3 owned Academies orthogonally connected.</li>
+</ul>
+<p><strong>VILLAGE WORKERS</strong> — 3 PP | Interactive (x2)</p>
+<ul>
+<li>Goal: Accumulate 3 Gold on this card. Any rival may deposit 1 Gold (free action, 1 time per turn) and receive 2 Mundane in exchange.</li>
+</ul>
+<p><strong>PRIVATE DEPARTMENT</strong> — 4 PP | Solo</p>
+<ul>
+<li>Goal: Have 4 owned buildings in a straight line, horizontal or vertical.</li>
+</ul>
+<p><strong>HAUGHTY</strong> — 4 PP | Solo</p>
+<ul>
+<li>Goal: Build an Academy adjacent to a rival Academy, with at least 2 PP more than it. Completes on build.</li>
+</ul>
+<p><strong>FIXER</strong> — 3 PP | Interactive</p>
+<ul>
+<li>Goal: On acquisition, place 4 resources from the bank on this objective in any combination of Mundane/Gold/Aether/Insight. During their turn, each rival may take 1 resource from this objective as a free action, at most 1 per turn. You may not take resources from your own objective. When no resources remain on this objective, complete it.</li>
+</ul>
+<p><strong>GUEST OF HONOR</strong> — 4 PP | Interactive</p>
+<ul>
+<li>Goal: Work 4 times on a building owned by a rival with 5 or more PP.</li>
+</ul>
+<p><strong>GARDEN PASSAGE</strong> — 4 PP | Solo</p>
+<ul>
+<li>Goal: Have an Academy-Courtyard-Academy line, all owned by you.</li>
+</ul>
+<p><strong>BROTHERHOOD HOUSE</strong> — 4 PP | Solo (x2)</p>
+<ul>
+<li>Goal: Your 4 meeples (3 Apprentices + Magister) are working or supervising on buildings you own at the same time.</li>
+</ul>
+</main>
+</body>
+</html>
