@@ -51,6 +51,8 @@ Print on **A4, portrait, 100% scale** (default or minimum margins).
 | [`opusacademica_catalogo.md`](opusacademica_catalogo.md) | Card catalog — **Spanish** |
 | [`opusacademica_rulebook.html`](opusacademica_rulebook.html) | Rulebook (English) as a self-contained, styled page |
 | [`opusacademica_catalog.html`](opusacademica_catalog.html) | Card catalog (English) as a self-contained, styled page |
+| [`opusacademica_rulebook.pdf`](opusacademica_rulebook.pdf) | Rulebook (English), print-ready PDF |
+| [`opusacademica_catalog.pdf`](opusacademica_catalog.pdf) | Card catalog (English), print-ready PDF |
 
-The `.html` files are standalone — styles are embedded and there are no dependencies. Open them
-directly in a browser to read comfortably or to print.
+The `.html` files are standalone (styles embedded, no dependencies) — open them in a browser to
+read or print. The `.pdf` files are the same English rulebook and catalog, ready to print directly.
